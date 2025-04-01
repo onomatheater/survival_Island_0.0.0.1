@@ -118,4 +118,4 @@ while not done:
         pygame.draw.rect(screen, WHITE, input_rect, 2)
 
     pygame.display.flip()  # Обновляем экран
-    clock.tick(FPS)  # Ограничиваем частоту кадро
+    clock.tick(FPS)  # Ограничиваем частоту кадров
