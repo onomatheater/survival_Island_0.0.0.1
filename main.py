@@ -91,7 +91,7 @@ while not done:
             char_index = 0
 
     # Отображаем текст, смещая его вверх
-    y_offset = HEIGHT - 80 - len(text_lines)  # Начальная позиция для отображения (учитывая место для ввода)
+    y_offset = HEIGHT - 80 - len(text_lines) * 40  # Начальная позиция для отображения (учитывая место для ввода)
     for i, line in enumerate(text_lines):
         # Определяем, насколько старое сообщение должно исчезать
         fade_time = current_time - fade_timers[i]
